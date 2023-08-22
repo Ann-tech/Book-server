@@ -1,4 +1,3 @@
-const { resolveSoa } = require("dns")
 let fs = require("fs")
 let path = require("path")
 let usersFile = path.join(__dirname, "db", "users.json")
